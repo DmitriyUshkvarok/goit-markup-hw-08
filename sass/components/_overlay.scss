@@ -1,0 +1,41 @@
+.link-owerlay {
+  display: inline-block;
+  transition: box-shadow $trasition-cubic-bazier;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &:hover .overlay-box,
+  &:focus .overlay-box {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.overlay-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(100%);
+  opacity: 0;
+  padding: 63px 24px;
+  transition: transform $trasition-cubic-bazier, opacity $trasition-cubic-bazier;
+}
+
+@media (min-width: 480px) {
+  .link-owerlay {
+    width: 100%;
+  }
+}
+
+

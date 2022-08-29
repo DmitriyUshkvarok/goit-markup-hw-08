@@ -1,0 +1,59 @@
+.footer-social__title {
+  font-weight: $font-weight-bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $color-main-light;
+}
+
+.footer-social__list {
+  display: flex;
+  margin-top: 20px;
+  gap: $footer-soc-gap;
+}
+
+.footer-social__link {
+  @include flexCenter();
+  width: 44px;
+  height: 44px;
+  border-radius: $border-radius;
+  background-color: $footer-social-color;
+  transition: background-color $trasition-cubic-bazier;
+
+  &:hover,
+  &:focus {
+    background-color: $activ-logo-color;
+  }
+}
+
+.footer-social__icon {
+  display: flex;
+  fill: $color-main-light;
+}
+
+@media (min-width: 480px) {
+  .footer-social__title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-social {
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-social {
+    margin-right: 74px;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-social__title {
+    justify-content: flex-start;
+  }
+
+  .footer-social {
+    margin: 0;
+  }
+}

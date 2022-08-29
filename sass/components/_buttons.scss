@@ -1,0 +1,67 @@
+// buttons
+.btn {
+  @include buttonsProperties();
+  @include flexCenter();
+  &:hover,
+  &:focus {
+    background-color: $btn-hover-color;
+  }
+}
+
+.btn--large {
+  width: 216px;
+  height: 50px;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+
+  @media (min-width: 480px){
+    width:200px;
+  }
+}
+
+.btn--margin-top {
+  margin-top: 30px;
+}
+
+.btn--icon {
+  margin-left: 10px;
+}
+
+// button closed
+.btn-closed {
+  @include flexCenter();
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background-color: transparent;
+  cursor: pointer;
+  color: $color-main-light;
+  transition: background-color $trasition-cubic-bazier,
+    border-color $trasition-cubic-bazier, transform $trasition-cubic-bazier,
+    color $trasition-cubic-bazier;
+
+  &:hover,
+  &:focus {
+    transform: rotate(90deg);
+    background-color: rgba(33, 150, 243, 0.9);
+    border-color: none;
+    outline: none;
+  }
+}
+
+.btn-closed__icon {
+  position: absolute;
+  display: block;
+  fill: #000000;
+  transition: fill $trasition-cubic-bazier;
+}
+
+.btn-closed:hover .btn-closed__icon,
+.btn-closed:focus .btn-closed__icon {
+  fill: currentColor;
+}

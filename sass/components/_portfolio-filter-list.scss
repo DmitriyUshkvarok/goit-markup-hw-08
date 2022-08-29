@@ -1,0 +1,49 @@
+.filter-list {
+  @include flexCenter();
+  gap: $flex-filter-gap;
+  margin-bottom: 50px;
+}
+
+.filter-list__btn {
+  border: none;
+  background-color: $comands-filter-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  padding: 6px 25px;
+  cursor: pointer;
+  border-radius: $border-radius-button;
+  transition: background-color $trasition-cubic-bazier,
+    color $trasition-cubic-bazier;
+
+  &:hover,
+  &:focus {
+    background-color: $activ-logo-color;
+    color: $color-main-light;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+
+@media (min-width: 480px) {
+  .filter-list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 330px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .filter-list {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .filter-list {
+    margin-bottom: 50px;
+  }
+}

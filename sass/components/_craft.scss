@@ -1,0 +1,43 @@
+.craft {
+  padding-bottom: 94px;
+}
+
+.craft__list {
+  @include flexJustify();
+  flex-wrap: wrap;
+  gap: $flex-list-gap;
+}
+
+.craft-wrapper {
+  position: relative;
+}
+
+.craft-label {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px;
+}
+
+.craft__description {
+  font-weight: $font-weight-bold;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color-main-light;
+}
+
+@media (min-width: 480px) {
+  .craft {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .craft {
+    display: block;
+  }
+}

@@ -1,0 +1,57 @@
+// mixin for flex justify content space between
+@mixin flexJustify() {
+  display: flex;
+  justify-content: space-between;
+}
+
+// mixin for flex justify content center
+@mixin flexCenter() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//mixin for title properties
+@mixin titleProperties() {
+  font-weight: $font-weight-bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+// mixin for buttons
+@mixin buttonsProperties() {
+  width: 200px;
+  height: 50px;
+  font-weight: $font-weight-bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: $color-main-light;
+  background-color: $activ-logo-color;
+  border: none;
+  cursor: pointer;
+  box-shadow: $shadows-buttons;
+  border-radius: $border-radius-button;
+  transition: background-color $trasition-cubic-bazier;
+  margin-left: auto;
+  margin-right: auto;
+  fill: $color-main-light;
+}
+
+// mixin for logo
+@mixin logoProperties() {
+  font-family: "Raleway", sans-serif;
+  font-weight: $font-weight-bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+// border wrapper in portfolio
+@mixin borderWrapper() {
+  border-bottom: 1px solid $comands-filter-color;
+  border-left: 1px solid $comands-filter-color;
+  border-right: 1px solid $comands-filter-color;
+  padding: 20px 24px;
+}

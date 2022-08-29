@@ -1,0 +1,40 @@
+// utilits
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./utils/global-styles";
+@import "./utils/visually-hidden";
+@import"./utils/mixin";
+// buttons
+@import"./components/buttons";
+// burger-menu
+@import"./components/burger-menu";
+// mobile menu
+@import"./components/mobile-menu";
+// logo
+@import"./components/logo";
+// titles
+@import "./components/titles";
+// header
+@import "./components/page-header";
+@import "./components/header-navigation";
+@import "./components/header-contact-list";
+// promo block
+@import "./components/promo-box";
+// peculiarities
+@import "./components/peculiarities";
+// craft
+@import "./components/craft";
+// comands
+@import "./components/commands";
+// clients
+@import "./components/clients";
+// footer
+@import "./components/footer";
+@import "./components/footer-adress";
+@import "./components/footer-social";
+@import "./components/footer-form";
+// modal window
+@import "./components/modal-window";
+@import "./components/modal-feedback-form";
+@import "./components/footer-form";
+

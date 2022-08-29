@@ -1,0 +1,52 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  font-family: $global-serif;
+  color: var(--second-font-color);
+  letter-spacing: 0.03em;
+  background-color: var(--color-main-light);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media(min-width: 480px){
+    width: 480px;
+  }
+
+   @media(min-width: 768px){
+    width: 768px;
+  }
+
+  @media(min-width: 1200px){
+    width: 1200px;
+  }
+}

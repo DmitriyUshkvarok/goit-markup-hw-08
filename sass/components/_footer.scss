@@ -1,0 +1,31 @@
+.footer {
+  background-color: $fon-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+@media (min-width: 480px) {
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer .container {
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer .container {
+    flex-wrap: nowrap;
+  }
+}
