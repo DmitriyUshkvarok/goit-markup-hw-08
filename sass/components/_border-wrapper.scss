@@ -2,12 +2,6 @@
   @include borderWrapper();
 }
 
-@media (min-width: 768px) {
-.border-wrappper--padding-bottom{
-  padding-bottom: 56px;
-}
-}
-
 @media (min-width: 1200px) {
 .border-wrappper--padding-bottom{
   padding-bottom: 20px;

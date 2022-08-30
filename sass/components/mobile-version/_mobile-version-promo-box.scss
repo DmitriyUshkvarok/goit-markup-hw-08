@@ -1,0 +1,31 @@
+@media (min-width: 320px) {
+  .promo-box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 350px;
+  }
+
+  .promo-box__title {
+    max-width: 350px;
+    font-size: 20px;
+    line-height: 1.61;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 480px) {
+  .promo-box {
+    padding-top: 118px;
+    padding-bottom: 118px;
+    height: 400px;
+  }
+
+  .promo-box__title {
+    max-width: 360px;
+    font-size: 26px;
+    line-height: 1.61;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

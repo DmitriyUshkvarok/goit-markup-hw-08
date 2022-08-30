@@ -30,28 +30,6 @@
   fill: currentColor;
 }
 
-@media (min-width: 480px) {
-  .clients {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .clients__list {
-    flex-wrap: wrap;
-    gap: $flex-list-gap;
-  }
-
-  .clients-list__link {
-    width: 210px;
-  }
-}
-
-@media (min-width: 768px) {
-  .clients-list__link {
-    width: 226px;
-  }
-}
-
 @media (min-width: 1200px) {
   .clients {
     padding-top: 94px;

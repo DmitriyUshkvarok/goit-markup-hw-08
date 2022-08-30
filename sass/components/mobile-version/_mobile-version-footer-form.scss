@@ -1,0 +1,26 @@
+@media (min-width: 320px) {
+  .footer-subscription-wrapper {
+    margin-left: 0;
+  }
+
+  .footer__subscription {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-form {
+    flex-direction: column;
+  }
+
+  .footer-form__email {
+    width: 285px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 480px) {
+  .footer-form__email {
+    width: 450px;
+  }
+}

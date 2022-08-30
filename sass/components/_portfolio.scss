@@ -30,27 +30,6 @@
   margin-top: 4px;
 }
 
-@media (min-width: 480px) {
-  .portfolio {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .portfolio-list__item {
-    width: 100%;
-  }
-
-  .portfolio__img {
-    width: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  .portfolio-list__item {
-    width: 354px;
-  }
-}
-
 @media (min-width: 1200px) {
   .portfolio {
     padding-top: 94px;

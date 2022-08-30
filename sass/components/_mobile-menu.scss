@@ -1,5 +1,6 @@
-@media (min-width: 480px) {
+@media (min-width: 320px) {
   .mobile-menu {
+    display: flex;
     position: absolute;
     top: 0;
     left: 0;
@@ -16,11 +17,9 @@
   .mobile-menu.is-open {
     transform: translateY(0);
   }
-
   .mobile-nav-list {
     display: flex;
     flex-direction: column;
-    height: 200px;
     row-gap: 33px;
     margin-bottom: auto;
   }
@@ -28,7 +27,7 @@
   .mobile-nav-list_link {
     padding: 0;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: $second-font-color;
@@ -46,7 +45,7 @@
   .mobile-contact-list_link--phone {
     display: inline-block;
     font-weight: 500;
-    font-size: 34px;
+    font-size: 28px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: $activ-logo-color;
@@ -66,7 +65,8 @@
 
   .mobile-social-list {
     display: flex;
-    column-gap: 10px;
+    flex-wrap: wrap;
+    gap: $footer-soc-gap;
   }
 
   .mobile-social-list_link {
@@ -80,6 +80,21 @@
   .mobile-social-list--decor {
     margin-left: 10px;
     color: rgba(33, 33, 33, 0.2);
+  }
+}
+
+@media (min-width: 480px) {
+  .mobile-nav-list_link {
+    font-size: 40px;
+  }
+
+  .mobile-contact-list_link--phone {
+    font-size: 34px;
+  }
+
+  .mobile-social-list {
+    display: flex;
+    column-gap: $footer-soc-gap;
   }
 }
 

@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+  .contact-list {
+    transform: translateY(0);
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    gap:$footer-soc-gap;
+  }
+
+  .contact-list__link {
+    font-size: 12px;
+    line-height: 1.16;
+  }
+}

@@ -62,35 +62,6 @@
   display: block;
 }
 
-@media (min-width: 480px) {
-  .comands {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  .item-title--commands {
-    margin-bottom: 30px;
-  }
-
-  .comands-list__item {
-    width: 100%;
-  }
-
-  .comands-list__photo {
-    width: 100%;
-  }
-
-  .commands-social {
-    justify-content: center;
-  }
-}
-
-@media (min-width: 768px) {
-  .comands-list__item {
-    width: 354px;
-  }
-}
-
 @media (min-width: 1200px) {
   .comands {
     padding-top: 94px;

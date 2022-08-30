@@ -30,24 +30,6 @@
   fill: $color-main-light;
 }
 
-@media (min-width: 480px) {
-  .footer-social__title {
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer-social {
-    margin-bottom: 60px;
-  }
-}
-
-@media (min-width: 768px) {
-  .footer-social {
-    margin-right: 74px;
-    margin-left: auto;
-  }
-}
-
 @media (min-width: 1200px) {
   .footer-social__title {
     justify-content: flex-start;

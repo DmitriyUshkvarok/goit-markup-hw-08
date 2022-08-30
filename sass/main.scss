@@ -37,4 +37,11 @@
 @import "./components/modal-window";
 @import "./components/modal-feedback-form";
 @import "./components/footer-form";
+// mobile version
+@import "./mobile-version.scss";
+// tablet version
+@import "./tablet-version.scss";
+// desktop version
+@import "./desktop-version.scss";
+
 

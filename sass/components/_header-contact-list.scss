@@ -31,33 +31,6 @@
   margin-right: 10px;
 }
 
-@media (min-width: 480px) {
-  .contact-list {
-    transform: translateY(-100%);
-  }
-
-  .contact-list__link {
-    padding: 0;
-  }
-}
-
-@media (min-width: 768px) {
-  .contact-list {
-    transform: translateY(0);
-    flex-direction: column;
-    justify-content: center;
-    margin-left: auto;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    gap: 10px;
-  }
-
-  .contact-list__link {
-    font-size: 12px;
-    line-height: 1.16;
-  }
-}
-
 @media (min-width: 1200px) {
   .contact-list {
     display: flex;

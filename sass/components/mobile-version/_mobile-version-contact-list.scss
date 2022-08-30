@@ -1,0 +1,9 @@
+@media (min-width: 320px) {
+  .contact-list {
+    transform: translateY(-100%);
+  }
+
+  .contact-list__link {
+    padding: 0;
+  }
+}

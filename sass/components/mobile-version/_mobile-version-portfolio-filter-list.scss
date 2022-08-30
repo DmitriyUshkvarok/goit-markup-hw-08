@@ -1,0 +1,14 @@
+@media (min-width: 320px) {
+  .filter-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 480px) {
+  .filter-list {
+    justify-content: flex-start;
+    width: 330px;
+  }
+}

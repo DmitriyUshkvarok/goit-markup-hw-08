@@ -29,16 +29,9 @@
   padding: 40px;
 }
 
-@media (min-width: 480px) {
-  .modal-window {
-    width: 450px;
-    top: 55%;
-
-  }
-}
-
 @media (min-width: 1200px) {
   .modal-window {
     width: 528px;
+    top: 50%;
   }
 }

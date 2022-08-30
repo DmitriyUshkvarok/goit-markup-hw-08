@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  .peculiarities-list {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .peculiarities-list__item {
+    width: 354px;
+  }
+}

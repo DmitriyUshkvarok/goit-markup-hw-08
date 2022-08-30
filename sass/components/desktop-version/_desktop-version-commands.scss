@@ -1,0 +1,18 @@
+@media (min-width: 1200px) {
+  .comands {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .item-title {
+    @include titleProperties();
+  }
+
+  .comands-list__item {
+    width: auto;
+  }
+
+  .commands-social {
+    @include flexJustify();
+  }
+}
