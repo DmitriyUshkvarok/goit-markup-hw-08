@@ -1,9 +1,3 @@
 .border-wrappper {
   @include borderWrapper();
 }
-
-@media (min-width: 1200px) {
-.border-wrappper--padding-bottom{
-  padding-bottom: 20px;
-}
-}

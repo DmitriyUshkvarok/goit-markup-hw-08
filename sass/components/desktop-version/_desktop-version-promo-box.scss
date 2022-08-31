@@ -1,15 +1,26 @@
 @media (min-width: 1200px) {
   .promo-box {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  max-width: 1600px;
-  height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+  }
+
+  .promo-box__title {
+    max-width: 696px;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+  }
 }
 
-.promo-box__title {
-  max-width: 696px;
-  font-size: 44px;
-  font-weight: 900;
-  line-height: 1.36;
-}
+@media (min-resolution: 2dppx) {
+  .promo-box {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../../images/promo-desktop-x2.jpg");
+  }
 }

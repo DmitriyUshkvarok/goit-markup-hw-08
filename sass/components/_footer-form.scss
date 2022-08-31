@@ -35,24 +35,3 @@
   }
 }
 
-@media (min-width: 1200px) {
-  .footer-subscription-wrapper {
-    margin: 0;
-    margin-left: auto;
-  }
-
-  .footer__subscription {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .footer-form {
-    flex-direction: row;
-  }
-
-  .footer-form__email {
-    width: 358px;
-    margin-right: 12px;
-    margin-bottom: 0;
-  }
-}

@@ -8,6 +8,7 @@
   transition: transform $transition-for-modal, opacity $transition-for-modal;
   opacity: 1;
   overflow-y: scroll;
+  z-index: 15;
 }
 
 .back-drop-modal.is-hidden {
@@ -29,9 +30,3 @@
   padding: 40px;
 }
 
-@media (min-width: 1200px) {
-  .modal-window {
-    width: 528px;
-    top: 50%;
-  }
-}

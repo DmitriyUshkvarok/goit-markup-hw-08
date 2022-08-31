@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  .promo-box {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../../../images/promo-tablet-x1.jpg");
+  }
+
+  @media (min-resolution: 2dppx) {
+    .promo-box {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../../../images/promo-tablet-x2.jpg");
+    }
+  }
+}

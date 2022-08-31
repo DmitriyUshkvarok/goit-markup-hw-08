@@ -1,12 +1,12 @@
 @media (min-width: 768px) {
   .contact-list {
-    transform: translateY(0);
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: auto;
     padding-top: 21px;
     padding-bottom: 21px;
-    gap:$footer-soc-gap;
+    gap: $footer-soc-gap;
   }
 
   .contact-list__link {

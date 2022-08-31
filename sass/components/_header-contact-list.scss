@@ -31,12 +31,3 @@
   margin-right: 10px;
 }
 
-@media (min-width: 1200px) {
-  .contact-list {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    padding: 0;
-    gap: $flex-list-gap;
-  }
-}

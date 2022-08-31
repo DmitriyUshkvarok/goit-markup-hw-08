@@ -22,7 +22,7 @@ img {
 }
 
 body {
-  width: 100%;
+  max-width: 100%;
   margin: 0;
   font-family: $global-serif;
   color: var(--second-font-color);
@@ -33,24 +33,24 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  
- @media(min-width: 320px){
+
+  @media (min-width: 320px) {
     width: 320px;
   }
 
-  @media(min-width: 480px){
+  @media (min-width: 480px) {
     width: 480px;
   }
 
-   @media(min-width: 768px){
+  @media (min-width: 768px) {
     width: 768px;
   }
 
-  @media(min-width: 1200px){
+  @media (min-width: 1200px) {
     width: 1200px;
   }
 }

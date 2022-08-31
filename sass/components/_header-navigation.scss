@@ -56,14 +56,3 @@
   transform: scaleX(1);
 }
 
-@media (min-width: 1200px) {
-  .header-nav__link::after {
-    content: "";
-    bottom: -1px;
-  }
-
-  .header-nav__link--current::after {
-    content: "";
-    bottom: -1px;
-  }
-}

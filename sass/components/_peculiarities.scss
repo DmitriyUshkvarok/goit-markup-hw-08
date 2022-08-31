@@ -37,17 +37,3 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 1200px) {
-  .peculiarities {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-
-  .peculiarities-list {
-    flex-wrap: nowrap;
-  }
-
-  .peculiarities-mask {
-    width: 100%;
-  }
-}
