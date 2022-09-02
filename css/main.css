@@ -298,15 +298,10 @@ body {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-}
-@media (min-width: 320px) {
-  .container {
-    width: 320px;
-  }
 }
 @media (min-width: 480px) {
   .container {
@@ -503,7 +498,7 @@ body {
           transform: scale(0);
 }
 
-@media (min-width: 320px) {
+@media (min-width: 200px) {
   .burger-menu {
     display: block;
     border: none;
@@ -673,7 +668,7 @@ body {
           transform: scaleX(1);
 }
 
-@media (min-width: 320px) {
+@media (min-width: 200px) {
   .header-nav__list {
     display: none;
   }
@@ -808,7 +803,7 @@ body {
   margin-right: 10px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 200px) {
   .contact-list {
     display: none;
   }
