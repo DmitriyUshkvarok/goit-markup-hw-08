@@ -787,22 +787,18 @@ body {
 
 .logo--light {
   color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .logo--margin-bottom {
   margin-bottom: 20px;
 }
 
-@media (min-width: 320px) {
-  .logo--light {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
 @media (min-width: 480px) {
   .logo {
     font-size: 24px;
@@ -1457,7 +1453,7 @@ body {
   }
 }
 .footer-subscription-wrapper {
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .footer__subscription {
