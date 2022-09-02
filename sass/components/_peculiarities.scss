@@ -1,11 +1,15 @@
 .peculiarities {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .peculiarities-list {
   @include flexJustify();
   gap: $flex-list-gap;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
 }
 
 .peculiarities__description {
@@ -35,5 +39,38 @@
   font-weight: $font-weight-bold;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+@media (min-width: 480px) {
+  .peculiarities {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .peculiarities-list {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .peculiarities-list__item {
+    width: 354px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .peculiarities {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .peculiarities-list {
+    flex-wrap: nowrap;
+  }
+
+  .peculiarities-mask {
+    width: 100%;
+  }
 }
 

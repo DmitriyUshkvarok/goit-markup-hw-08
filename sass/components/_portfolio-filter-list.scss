@@ -1,7 +1,8 @@
 .filter-list {
   @include flexCenter();
   gap: $flex-filter-gap;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 
 .filter-list__btn {
@@ -25,3 +26,25 @@
   }
 }
 
+@media (min-width: 480px) {
+  .filter-list {
+    justify-content: flex-start;
+    width: 330px;
+  }
+}
+
+@media (min-width: 768px) {
+  .filter-list {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .filter-list {
+    @include flexCenter();
+    gap: $flex-filter-gap;
+    margin-bottom: 50px;
+  }
+}

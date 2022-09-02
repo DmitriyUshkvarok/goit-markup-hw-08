@@ -1,15 +1,19 @@
 .clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .clients__list {
-  @include flexJustify();
+  flex-wrap: wrap;
+}
+
+.clients-list__item:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .clients-list__link {
   @include flexCenter();
-  width: 170px;
+  width: 100%;
   height: 92px;
   fill: currentColor;
   color: $social-standart-color;
@@ -30,3 +34,45 @@
   fill: currentColor;
 }
 
+@media (min-width: 480px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .clients-list__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .clients__list {
+    @include flexJustify();
+    gap: $flex-list-gap;
+  }
+
+  .clients-list__link {
+    width: 210px;
+  }
+}
+
+@media (min-width: 768px) {
+  .clients-list__link {
+    width: 226px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .clients__list {
+    @include flexJustify();
+    flex-wrap: nowrap;
+    gap: $flex-list-gap;
+  }
+
+  .clients-list__link {
+    width: 170px;
+  }
+}

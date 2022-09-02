@@ -1,5 +1,8 @@
 .link-owerlay {
-  display: inline-block;
+  display: block;
+  height: 100%;
+  outline: 1px solid $comands-filter-color;
+  outline-offset: -1px ;
   transition: box-shadow $trasition-cubic-bazier;
 
   &:hover,
@@ -30,6 +33,12 @@
   opacity: 0;
   padding: 63px 24px;
   transition: transform $trasition-cubic-bazier, opacity $trasition-cubic-bazier;
+}
+
+@media (min-width: 480px) {
+  .link-owerlay {
+    width: 100%;
+  }
 }
 
 

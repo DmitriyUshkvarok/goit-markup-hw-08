@@ -1,5 +1,11 @@
-.footer-box-adress {
-  margin-right: 70px;
+  .footer-box-adress {
+    margin-bottom: 40px;
+  }
+
+
+.footer-adress__item {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-adress__link {
@@ -18,10 +24,16 @@
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   transition: $trasition-cubic-bazier;
-
   &:hover,
   &:focus {
     color: $activ-logo-color;
+  }
+}
+
+@media (min-width: 480px) {
+  .footer-box-adress {
+    margin-right: 0;
+    margin-bottom: 60px;
   }
 }
 

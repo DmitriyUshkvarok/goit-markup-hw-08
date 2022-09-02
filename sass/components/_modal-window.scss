@@ -19,7 +19,7 @@
 
 .modal-window {
   position: absolute;
-  width: 528px;
+  max-width: 528px;
   background-color: $color-main-light;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -30,3 +30,23 @@
   padding: 40px;
 }
 
+@media (min-width: 320px) {
+  .modal-window {
+    width: 300px;
+    top: 55%;
+    z-index: 15;
+  }
+}
+
+@media (min-width: 480px) {
+  .modal-window {
+    width: 450px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-window {
+    width: 528px;
+    top: 50%;
+  }
+}

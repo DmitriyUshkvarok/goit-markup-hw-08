@@ -33,8 +33,5 @@
 @import "./components/footer-social";
 @import "./components/footer-form";
 // mobile version
-@import "./mobile-version.scss";
-// tablet version
-@import "./tablet-version.scss";
-// desktop version
-@import "./desktop-version.scss";
+@import "./components/mobile-version-menu";
+

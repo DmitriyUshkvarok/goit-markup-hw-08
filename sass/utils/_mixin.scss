@@ -50,8 +50,5 @@
 
 // border wrapper in portfolio
 @mixin borderWrapper() {
-  border-bottom: 1px solid $comands-filter-color;
-  border-left: 1px solid $comands-filter-color;
-  border-right: 1px solid $comands-filter-color;
   padding: 20px 24px;
 }

@@ -1,8 +1,14 @@
+  .footer-social {
+    margin-bottom: 60px;
+  }
+
 .footer-social__title {
   font-weight: $font-weight-bold;
   line-height: 1.14;
   text-transform: uppercase;
   color: $color-main-light;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-social__list {
@@ -30,3 +36,12 @@
   fill: $color-main-light;
 }
 
+@media (min-width: 1200px) {
+  .footer-social__title {
+    justify-content: flex-start;
+  }
+
+  .footer-social {
+    margin: 0;
+  }
+}
