@@ -15,8 +15,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: $description-color;
-  padding-top: 25px;
-  padding-bottom: 25px;
   fill: currentColor;
   transition: color $trasition-cubic-bazier;
 
@@ -65,4 +63,11 @@
     align-items: center;
     justify-content: center;
   }
+
+  .contact-list__link {
+  @include flexCenter();
+  padding-top: 25px;
+  padding-bottom: 25px;
+  }
 }
+
