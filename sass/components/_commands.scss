@@ -5,7 +5,8 @@
 }
 
 .comands-list {
-  @include flexJustify();
+  display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: $flex-list-gap;
 }
@@ -95,6 +96,10 @@
   .comands {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+
+  .comands-list {
+   @include flexJustify();
   }
 
   .item-title {
