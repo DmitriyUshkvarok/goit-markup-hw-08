@@ -290,11 +290,15 @@ body {
   max-width: 100%;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  color: var(--second-font-color);
+  color: #212121;
   letter-spacing: 0.03em;
-  background-color: var(--color-main-light);
+  background-color: #ffffff;
   font-size: 14px;
   line-height: 1.71;
+}
+
+body.is-hidden {
+  overflow: hidden;
 }
 
 .container {

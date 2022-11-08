@@ -44,6 +44,14 @@
   }
 }
 
+.validation-input.valid {
+  border-color: #4caf50;
+}
+
+.validation-input.invalid {
+  border-color: #f44336;
+}
+
 textarea {
   height: 120px;
   padding: 12px 16px;
