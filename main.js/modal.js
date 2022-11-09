@@ -18,8 +18,8 @@
   function onEscKeyPress(event) {
     if (event.code === "Escape") {
       refs.modal.classList.add("is-hidden");
-      document.body.classList.toggle("modal-open");
     }
+    document.body.classList.remove("modal-open");
   }
 
   window.onclick = function (e) {
