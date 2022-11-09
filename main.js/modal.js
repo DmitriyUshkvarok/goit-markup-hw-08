@@ -8,11 +8,17 @@
 
   refs.openModalBtn.addEventListener("click", toggleModal);
   refs.closeModalBtn.addEventListener("click", toggleModal);
+  window.addEventListener("keydown", onEscKeyPress);
 
   function toggleModal() {
-    console.log(event);
     refs.modal.classList.toggle("is-hidden");
     document.body.classList.toggle("modal-open");
+  }
+
+  function onEscKeyPress(event) {
+    if (event.code === "Escape") {
+      refs.modal.classList.add("is-hidden");
+    }
   }
 
   window.onclick = function (e) {
@@ -20,6 +26,7 @@
       if (e.target === backdrop) {
         backdrop.classList.add("is-hidden");
         document.body.classList.toggle("modal-open");
+        console.log(e);
       }
     }
   };
