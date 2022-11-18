@@ -172,10 +172,13 @@
           <ul class="craft__list">
             <li>
               <div class="craft-wrapper">
-                <img class="craft-photo" srcset="./images/work-1-x2.jpg"
-                  src="./images/work-1.jpg" alt="людина працює за компьютером"
+                <img class="craft-photo lazyload"
+                  data-srcset="./images/work-1-x2.jpg"
+                  data-src="./images/work-1.jpg" alt="людина працює за
+                  компьютером"
                   width="370"
-                  height="294" />
+                  height="294"
+                  loading="lazy"/>
                 <div class="craft-label">
                   <p class="craft__description">Десктопні додатки</p>
                 </div>
@@ -183,10 +186,12 @@
             </li>
             <li>
               <div class="craft-wrapper">
-                <img class="craft-photo" srcset="./images/work-2-x2.jpg"
-                  src="./images/work-2.jpg" alt="людина працює с телефоном"
+                <img class="craft-photo lazyload"
+                  data-srcset="./images/work-2-x2.jpg"
+                  data-src="./images/work-2.jpg" alt="людина працює с телефоном"
                   width="370"
-                  height="294" />
+                  height="294"
+                  loading="lazy"/>
                 <div class="craft-label">
                   <p class="craft__description">Мобільні додатки</p>
                 </div>
@@ -194,10 +199,12 @@
             </li>
             <li>
               <div class="craft-wrapper">
-                <img class="craft-photo" srcset="./images/work-3-x2.jpg"
-                  src="./images/work-3.jpg" alt="людина працює с планшетом"
+                <img class="craft-photo lazyload"
+                  data-srcset="./images/work-3-x2.jpg"
+                  data-src="./images/work-3.jpg" alt="людина працює с планшетом"
                   width="370"
-                  height="294" />
+                  height="294"
+                  loading="lazy" />
                 <div class="craft-label">
                   <p class="craft__description">Дизайнерські рішення</p>
                 </div>
@@ -213,10 +220,12 @@
           <h2 class="item-title item-title--commands">Наша команда</h2>
           <ul class="comands-list">
             <li class="comands-list__item">
-              <img class="comands-list__photo" srcset="./images/igor-x2.jpg 2x"
-                src="./images/igor.jpg" alt="Ігор Дем'яненко посміхаеться"
+              <img class="comands-list__photo lazyload"
+                data-srcset="./images/igor-x2.jpg 2x"
+                data-src="./images/igor.jpg" alt="Ігор Дем'яненко посміхаеться"
                 width="270"
-                height="260" />
+                height="260"
+                loading="lazy"/>
               <div class="command-box-wrapper">
                 <h3 class="comands-list__name">Ігор Дем'яненко</h3>
                 <p class="comands-list__profession">Product Designer</p>
@@ -261,10 +270,12 @@
               </div>
             </li>
             <li class="comands-list__item">
-              <img class="comands-list__photo" srcset="./images/olga-x2.jpg 2x"
-                src="./images/olga.jpg"
+              <img class="comands-list__photo lazyload"
+                data-srcset="./images/olga-x2.jpg 2x"
+                data-src="./images/olga.jpg"
                 alt="Блондинка Ольга Рєпіна посміхаеться в окулярах" width="270"
-                height="260" />
+                height="260"
+                loading="lazy" />
               <div class="command-box-wrapper">
                 <h3 class="comands-list__name">Ольга Рєпіна</h3>
                 <p class="comands-list__profession">Frontend Developer</p>
@@ -309,10 +320,12 @@
               </div>
             </li>
             <li class="comands-list__item">
-              <img class="comands-list__photo" srcset="./images/mikola-x2.jpg
-                2x" src="./images/mikola.jpg"
+              <img class="comands-list__photo lazyload"
+                data-srcset="./images/mikola-x2.jpg
+                2x" data-src="./images/mikola.jpg"
                 alt="щасливий Микола Тарасов дивиться в даль та посміхаеться"
-                width="270" height="260" />
+                width="270" height="260"
+                loading="lazy" />
               <div class="command-box-wrapper">
                 <h3 class="comands-list__name">Микола Тарасов</h3>
                 <p class="comands-list__profession">Marketing</p>
@@ -357,10 +370,12 @@
               </div>
             </li>
             <li class="comands-list__item">
-              <img class="comands-list__photo" srcset="./images/miha-x2.jpg 2x"
-                src="./images/miha.jpg"
+              <img class="comands-list__photo lazyload"
+                data-srcset="./images/miha-x2.jpg 2x"
+                data-src="./images/miha.jpg"
                 alt="Михайло Єрмаков в окулярах дивиться на тебе як на здобич"
-                width="270" height="260" />
+                width="270" height="260"
+                loading="lazy" />
               <div class="command-box-wrapper">
                 <h3 class="comands-list__name">Михайло Єрмаков</h3>
                 <p class="comands-list__profession">UI Designer</p>
@@ -613,6 +628,11 @@
         </form>
       </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+      integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./main.js/lazy-img.js"></script>
     <script src="./main.js/modal.js"></script>
     <script src="./main.js/validationinput.js"></script>
     <script src="./main.js/burger-memu.js"></script>
